@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 163.095 s <<< FAILURE! - in TestSuite
+Test(androidTest.TestApp)  Time elapsed: 36.948 s  <<< FAILURE!
+java.lang.NullPointerException
+	at androidTest.TestApp.Test(TestApp.java:19)
+
+Test1(androidTest.TestApp)  Time elapsed: 36.635 s  <<< FAILURE!
+java.lang.NullPointerException
+	at androidTest.TestApp.Test1(TestApp.java:30)
+
+Test2(androidTest.TestApp)  Time elapsed: 43.41 s  <<< FAILURE!
+java.lang.NullPointerException
+	at androidTest.TestApp.Test2(TestApp.java:41)
+
+Test3(androidTest.TestApp)  Time elapsed: 40.294 s  <<< FAILURE!
+java.lang.NullPointerException
+	at androidTest.TestApp.Test3(TestApp.java:55)
+
